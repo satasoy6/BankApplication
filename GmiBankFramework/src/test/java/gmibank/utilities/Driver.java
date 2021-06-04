@@ -54,13 +54,13 @@ public class Driver {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
-//        static public void closeDriver() {
-//            if (driver != null) {
-//                ReusableMethods.waitFor(2);
-//                driver.close();
-//                driver = null;
-//            }
-//        }
+        static public void closeDriver() {
+            if (driver != null) {
+             //   ReusableMethods.waitFor(2);
+                driver.close();
+                driver = null;
+            }
+        }
     public static void wait(int secs) {
         try {
             Thread.sleep(1000 * secs);
