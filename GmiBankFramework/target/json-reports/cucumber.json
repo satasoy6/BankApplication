@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-04T05:11:58.532Z",
+        "line": 3,
+        "name": "Read all customer",
+        "description": "",
+        "id": "gmibank-api-test;read-all-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2235000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user go to api endpoint \"https://www.gmibank.com/api/tp-customers\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "read all customers and set response",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "GmiBank Api Test",
+    "description": "",
+    "id": "gmibank-api-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
